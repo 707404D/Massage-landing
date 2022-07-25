@@ -1,0 +1,273 @@
+.about {
+   margin-bottom: 300px;
+   @media (max-width: 900px) {
+      margin-bottom: 120px;
+   }
+   @media (max-width: 450px) {
+      margin-bottom: 230px;
+   }
+   @media (max-width: 450px) {
+      margin-bottom: 290px;
+   }
+   &__mark {
+      margin-bottom: 20px;
+
+      @media (max-width: 725px) {
+         margin-bottom: 70px;
+      }
+   }
+
+   &__inner {
+      position: relative;
+      &:before {
+         content: "";
+         width: 50px;
+         height: 50px;
+         box-shadow: -3px 1px 5px rgba(#000000, 0.25);
+         border-radius: 50%;
+         background: url("../img/about/logoabout.svg") #608153 center no-repeat;
+         position: absolute;
+         top: 9%;
+         left: 9%;
+         z-index: 3;
+         @media (max-width: 900px) {
+            top: 7%;
+         }
+      }
+   }
+
+   &__items {
+      position: relative;
+
+      &:before {
+         content: "";
+         width: 28px;
+         height: 28px;
+         background-color: #9dac96;
+         box-shadow: -3px 1px 5px rgba(#000000, 0.25);
+         border-radius: 50%;
+         position: absolute;
+         top: 25%;
+         left: 4%;
+         z-index: 3;
+      }
+      &:after {
+         content: "";
+         width: 35px;
+         height: 35px;
+         background-color: #67984f;
+         box-shadow: -3px 1px 5px rgba(#000000, 0.25);
+         border-radius: 50%;
+         position: absolute;
+         top: 17%;
+         left: 6%;
+         z-index: 3;
+      }
+   }
+
+   &__item1 {
+      display: inline-block;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 132%;
+      color: #608251;
+      padding: 160px 130px 190px 152px;
+
+      background: url("../img/about/Ellipsemain.svg") top center no-repeat;
+      background-size: 740px 620px;
+      // background-size: cover;
+      max-width: 750px;
+      max-height: 616px;
+      @media (max-width: 1100px) {
+         font-size: 17px;
+         background-size: contain;
+         padding: 144px 180px 180px 152px;
+      }
+      @media (max-width: 850px) {
+         padding: 95px 100px 50px 120px;
+         width: 70%;
+         min-height: 500px;
+         background-size: contain;
+      }
+      @media (max-width: 750px) {
+         width: 100%;
+         padding: 130px 120px 50px 120px;
+         background-size: 100% 480px;
+         background-position: 0px 0px;
+      }
+      @media (max-width: 650px) {
+         background: url("../img/about/Ellipsemainsmall.svg") top center no-repeat;
+
+         background-position: left top;
+         padding: 120px 35% 50px 80px;
+         // background-size: 434px 480px;
+         // max-width: 434px;
+         // max-height: 480px;
+         // .about__item-text{
+         //    padding: 15% 45% 15% 15%;
+         // }
+      }
+      @media (max-width: 550px) {
+         padding: 120px 20% 50px 80px;
+         background-size: contain;
+      }
+      @media (max-width: 450px) {
+         background: none;
+         padding: 140px 5% 0 15%;
+      }
+      // @media (max-width: 550px) {
+      //    padding: 20% 25% 15% 20%;
+      // }
+   }
+
+   &__item2 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 350px;
+      padding: 60px 50px 90px 60px;
+      span {
+         display: inline-block;
+         font-weight: 400;
+         font-size: 60px;
+         margin-bottom: 5px;
+      }
+      font-weight: 300;
+      font-size: 23px;
+      color: #ffffff;
+      background: url("../img/about/Ellipse1.svg") top center no-repeat;
+
+      position: absolute;
+      top: 0;
+      right: 10%;
+      @media (max-width: 1100px) {
+         span {
+            font-size: 25px;
+         }
+         font-size: 12px;
+         background-size: contain;
+         padding: 60px 70px 90px 60px;
+         right: 0;
+         min-width: 170px;
+         min-height: 150px;
+      }
+      @media (max-width: 750px) {
+         top: -80px;
+      }
+      @media (max-width: 500px) {
+         padding: 20px 23% 0 23%;
+         background: url("../img/about/Ellipse1small.svg") top center no-repeat;
+         top: -40px;
+         right: -60px;
+      }
+      @media (max-width: 380px) {
+         padding: 20px 23% 0 25%;
+         padding: 20px 90px 0 100px;
+      }
+   }
+
+   &__item3 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 395px;
+      padding: 80px 65px 134px 46px;
+      span {
+         display: inline-block;
+         font-weight: 400;
+         font-size: 60px;
+         margin-bottom: 5px;
+      }
+      font-weight: 300;
+      font-size: 40px;
+      color: #ffffff;
+      background: url("../img/about/Ellipse2.svg") top center no-repeat;
+      position: absolute;
+      top: 50%;
+      right: 4%;
+      @media (max-width: 1100px) {
+         span {
+            font-size: 25px;
+         }
+         font-size: 12px;
+         background-size: contain;
+         min-width: 150px;
+         min-height: 150px;
+         padding: 40px 65px 64px 46px;
+         right: 10%;
+      }
+      @media (max-width: 850px) {
+         background: url("../img/about/Ellipse2small.svg") top center no-repeat;
+      }
+      @media (max-width: 750px) {
+         right: 0;
+         top: 70%;
+      }
+      @media (max-width: 470px) {
+         top: 75%;
+      }
+      @media (max-width: 370px) {
+         top: 93%;
+      }
+   }
+
+   &__item4 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 395px;
+      padding: 50px 75px 150px 80px;
+      span {
+         display: inline-block;
+         font-weight: 400;
+         font-size: 40px;
+         margin-bottom: 5px;
+      }
+      font-weight: 300;
+      font-size: 23px;
+      color: #ffffff;
+      background: url("../img/about/Ellipse3.svg") top center no-repeat;
+      position: absolute;
+      top: 75%;
+      right: 38%;
+      @media (max-width: 1100px) {
+         span {
+            font-size: 25px;
+         }
+         font-size: 12px;
+         background-size: 230px 200px;
+         min-width: 195px;
+         min-height: 170px;
+         padding: 30px 95px 70px 100px;
+         right: 20%;
+      }
+      @media (max-width: 750px) {
+         top: 65%;
+         right: 30%;
+      }
+      @media (max-width: 620px) {
+         top: 80%;
+      }
+      @media (max-width: 500px) {
+         background: url("../img/about/Ellipse3small.svg") top center no-repeat;
+      }
+      @media (max-width: 450px) {
+         top: 100%;
+         left: 0;
+         right: 0%;
+         background-position: left center;
+         background-size: contain;
+         padding: 0;
+         padding: 50px 6% 20px 6%;
+         min-height: 200px;
+         min-width: 300px;
+         align-items: start;
+      }
+      @media (max-width: 370px) {
+         top: 115%;
+      }
+   }
+}

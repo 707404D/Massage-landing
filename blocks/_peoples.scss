@@ -1,0 +1,79 @@
+.peoples {
+   margin-bottom: 60px;
+   &__mark {
+      margin-bottom: 70px;
+      @media (max-width: 675px) {
+         margin-bottom: 30px;
+      }
+   }
+
+   &__inner {
+      border-radius: 69px;
+      background-color: #fffef2;
+      padding: 60px 90px;
+      box-shadow: 8px 0 18px rgba(#648856, 0.11);
+      @media (max-width: 675px) {
+         padding: 60px 0;
+      }
+   }
+
+   &__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      // column-gap: 67px;
+      row-gap: 42px;
+   }
+
+   &__item {
+      width: 30%;
+      @media (max-width: 989px) {
+         width: 47%;
+      }
+      @media (max-width: 400px) {
+         width: 100%;
+      }
+   }
+
+   &__img {
+      display: block;
+
+      max-height: 199px;
+      width: 100%;
+      border: 1px solid #608153;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      img {
+         display: block;
+         border-radius: 10px;
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+
+         min-height: 193px;
+         max-height: 193px;
+      }
+   }
+
+   &__textinfo {
+      p {
+         font-weight: 400;
+         font-size: 21px;
+         color: #67984f;
+         margin-bottom: 5px;
+      }
+      a {
+         font-weight: 400;
+         font-size: 17px;
+         color: #9caa95;
+         transition: all 0.2s linear;
+         &:hover {
+            color: #64745c;
+         }
+      }
+   }
+}
+.container {
+}
+.mark {
+}

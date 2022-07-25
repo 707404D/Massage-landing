@@ -1,0 +1,217 @@
+.reviews {
+   margin-bottom: 60px;
+   &__mark {
+      margin-bottom: 67px;
+      @media (max-width: 650px) {
+         margin-bottom: 25px;
+      }
+   }
+
+   &__content {
+   }
+
+   &__inner {
+      margin-bottom: 50px;
+      @media (max-width: 650px) {
+         margin-bottom: 15px;
+      }
+   }
+
+   &__item {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      @media (max-width: 840px) {
+         flex-wrap: wrap;
+      }
+   }
+
+   &__review {
+      width: 48%;
+      padding: 20px 50px 50px 0;
+      border-radius: 69px;
+      background-color: #fffef2;
+      box-shadow: 8px 0 18px rgba(#648856, 0.11);
+      @media (max-width: 840px) {
+         width: 100%;
+         margin-bottom: 30px;
+      }
+      @media (max-width: 450px) {
+         padding: 20px 10px 30px 0;
+      }
+   }
+
+   &__review-wrapper {
+      padding-left: 63px;
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      @media (max-width: 450px) {
+         padding-left: 30px;
+      }
+      @media (max-width: 360px) {
+         flex-wrap: wrap;
+         padding: 20px 10px 0;
+         justify-content: center;
+      }
+   }
+
+   &__review-ava {
+      display: block;
+      width: 51px;
+      height: 51px;
+      background-color: #648856;
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 21px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 15px;
+      @media (max-width: 360px) {
+         margin-right: 0;
+      }
+   }
+
+   &__review-name {
+      font-size: 21px;
+      font-weight: 500;
+      color: #608452;
+      margin-right: 30px;
+      @media (max-width: 360px) {
+         width: 100%;
+         margin-top: 5px;
+         text-align: center;
+         margin-right: 0;
+      }
+   }
+
+   &__date {
+      font-size: 17px;
+      font-weight: 300;
+      color: #9eaa96;
+      @media (max-width: 360px) {
+         width: 100%;
+         text-align: center;
+         margin-top: 5px;
+      }
+   }
+
+   &__text {
+      padding-left: 51px;
+
+      font-size: 21px;
+      font-weight: 400;
+      color: #67984f;
+      @media (max-width: 450px) {
+         padding-left: 25px;
+         text-align: center;
+      }
+   }
+
+   &__nav {
+   }
+
+   &__nav-inner {
+      display: flex;
+      justify-content: space-between;
+      max-width: 170px;
+      margin: 0 auto;
+      margin-bottom: 25px;
+   }
+
+   &__btn-left {
+      padding: 0;
+      background: none;
+      border: 0;
+      border-radius: 50%;
+      display: block;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      box-shadow: -2px -1px 6px rgba(#e3e3e3, 0.19), 2px 1px 5px rgba(#000000, 0.1);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      img {
+         display: block;
+         width: 15px;
+         height: 15px;
+      }
+      &:hover {
+         box-shadow: -2px -1px 6px rgba(#e3e3e3, 0.19), 2px 1px 5px rgba(#000000, 0.3);
+      }
+   }
+   &__btn-right {
+      padding: 0;
+      background: none;
+      border: 0;
+      border-radius: 50%;
+      display: block;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      box-shadow: -2px -1px 6px rgba(#e3e3e3, 0.19), 2px 1px 5px rgba(#000000, 0.1);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      img {
+         display: block;
+         width: 15px;
+         height: 15px;
+      }
+      &:hover {
+         box-shadow: -2px -1px 6px rgba(#e3e3e3, 0.19), 2px 1px 5px rgba(#000000, 0.3);
+      }
+   }
+
+   &__nav-text {
+      letter-spacing: 0.335em;
+      color: #608452;
+      display: flex;
+      align-items: center;
+   }
+
+   &__nav-slide-current {
+      font-size: 21px;
+      font-weight: 400;
+   }
+
+   &__nav-slide-count {
+      font-size: 21px;
+      font-weight: 400;
+      color: #608452;
+   }
+
+   &__nav-slide-all {
+      font-size: 30px;
+      font-weight: 400;
+   }
+
+   &__nav-sighnew {
+      display: block;
+      font-size: 23px;
+      font-weight: 400;
+      color: #608452;
+      text-align: center;
+      text-decoration: underline;
+      transition: all 0.2s ease;
+      &:hover {
+         color: #64745c;
+      }
+   }
+}
+.container {
+}
+.mark {
+}
+
+.slick__item {
+   display: flex;
+}

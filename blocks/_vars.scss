@@ -1,0 +1,18 @@
+$green1: #9dac96;
+$green2: #608452;
+$green3: #83ad7c;
+.mark {
+   display: inline-block;
+   font-family: "Playfair Display", serif;
+   font-weight: 500;
+   font-size: 40px;
+   color: #83ad7c;
+   background-color: #fffef2;
+   border: 1px solid #83ad7c;
+   padding: 9px 60px 20px 60px;
+   border-radius: 35px;
+   @media(max-width:767px){
+      font-size: 24px;
+      padding: 5px 25px 10px 25px;
+   }
+}

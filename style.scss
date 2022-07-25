@@ -1,0 +1,119 @@
+@font-face {
+   font-family: "SFProDisplay";
+   src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
+      url("../fonts/SFProDisplay-Bold.ttf") format("truetype"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "SFProDisplay";
+   src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"),
+      url("../fonts/SFProDisplay-Light.ttf") format("truetype"), url("../fonts/SFProDisplay-Light.woff2") format("woff");
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: "SFProDisplay";
+   src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"),
+      url("../fonts/SFProDisplay-Medium.ttf") format("truetype"),
+      url("../fonts/SFProDisplay-Medium.woff2") format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "SFProDisplay";
+   src: url("../fonts/SFProDisplay-Semibold.woff2") format("woff2"),
+      url("../fonts/SFProDisplay-Semibold.ttf") format("truetype"),
+      url("../fonts/SFProDisplay-Semibold.woff2") format("woff");
+   font-weight: 600;
+   font-style: normal;
+}
+@font-face {
+   font-family: "SFProDisplay";
+   src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+      url("../fonts/SFProDisplay-Regular.ttf") format("truetype"),
+      url("../fonts/SFProDisplay-Regular.woff2") format("woff");
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.ttf") format("truetype"),
+      url("../fonts/Gilroy-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.ttf") format("truetype"),
+      url("../fonts/Gilroy-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Gilroy";
+   src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.ttf") format("truetype"),
+      url("../fonts/Gilroy-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+}
+body {
+   margin: 0;
+   font-family: "Montserrat", sans-serif;
+
+   // font-family: 'Playfair Display', serif;
+
+   box-sizing: border-box;
+   background-color: #f8fff6;
+   overflow: auto;
+   height: 100%;
+   &.noscroll {
+      overflow: hidden;
+   }
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+p {
+   margin: 0;
+}
+
+.container {
+   max-width: 1107px;
+   padding: 0 15px;
+   margin: 0 auto;
+
+   &.container-preview {
+      position: relative;
+      z-index: 5;
+      padding: 0;
+      min-height: 100%;
+      min-width: 100%;
+      display: flex;
+      justify-content: end;
+   }
+}
+
+@import "blocks/vars";
+@import "blocks/header";
+@import "blocks/preview";
+@import "blocks/btn";
+@import "blocks/about";
+@import "blocks/features";
+@import "blocks/peoples";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";

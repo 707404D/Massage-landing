@@ -1,0 +1,30 @@
+.btn {
+   padding: 0;
+   border: 0;
+   font: inherit;
+   background: 0;
+
+   padding: 14px 54px;
+
+   font-weight: 500;
+   font-size: 17px;
+   color: #fff;
+   background: linear-gradient(114deg, rgba(131, 173, 124, 1) 0%, rgba(96, 132, 82, 1) 100%);
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.2s ease;
+
+   &:hover {
+      background: linear-gradient(114deg, rgba(131, 173, 124, 0.8) 0%, rgba(96, 132, 82, 0.8) 100%);
+   }
+   &-features {
+      display: block;
+      margin: 0 auto;
+   }
+   &-preview {
+      @media (max-width: 675px) {
+         width: 100%;
+         padding: 10px 20px;
+      }
+   }
+}
