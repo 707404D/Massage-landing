@@ -3,7 +3,7 @@
 
 HTML, SCSS, JS
 
-- SLider slick
+- Slider slick
 - Модальные окна
 - Стилизованный селект
 - Адаптив до 300px
